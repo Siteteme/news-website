@@ -6,14 +6,14 @@ const HomePage = () => {
   return (
     <section>
       <TitleSection title=" اخبار دسته اول" />
-      <section className="container m-auto flex justify-between mt-16 gap-6">
-        <div className="w-1/2 flex-1">
+      <section className="container m-auto flex flex-col md:flex-row justify-between mt-16 gap-6">
+        <div className="w-full md:w-1/2 flex-1">
           <Slider />
         </div>
-        <div className="w-1/4">
+        <div className="w-full md:w-1/4">
           <ManagerNews />
         </div>
-        <div className="w-1/4 ">به روز ترین قیمت</div>
+        <div className="w-full md:w-1/4">به روز ترین قیمت</div>
       </section>
     </section>
   );
