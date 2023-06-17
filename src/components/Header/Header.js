@@ -4,7 +4,7 @@ import HeaderBottom from "./HeaderBottom";
 
 const Header = () => {
   return (
-    <section className="relative ">
+    <section className="relative">
       <HeaderTop />
       <HeaderBottom />
     </section>

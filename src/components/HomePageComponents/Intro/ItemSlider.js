@@ -11,7 +11,7 @@ const ItemSlider = () => {
             className="h-[220px] object-cover  rounded-[10px]  "
           />
         </div>
-        <div className="relative bottom-12 flex flex-col items-center">
+        <div className="relative bottom-[50px] flex flex-col items-center">
           <img
             src={arrowSlider}
             alt="arrow-slider"
@@ -28,7 +28,7 @@ const ItemSlider = () => {
             className="h-[220px] object-cover  rounded-[10px]  "
           />
         </div>
-        <div className="relative bottom-12 flex flex-col items-center">
+        <div className="relative bottom-[50px] flex flex-col items-center">
           <img
             src={arrowSlider}
             alt="arrow-slider"
@@ -44,7 +44,7 @@ const ItemSlider = () => {
           alt="banner"
           className="h-[220px] object-cover rounded-[10px] w-full "
         />
-        <div className="flex justify-between items-center w-auto m-auto bg-[rgba(0,0,0,0.5)] p-2 rounded  backdrop-blur-[6px] relative bottom-14 mx-4 border text-sm cursor-pointer">
+        <div className="flex justify-between items-center w-auto m-auto bg-[rgba(0,0,0,0.5)] p-2 rounded  backdrop-blur-[6px] relative bottom-[50px] mx-4 border text-sm cursor-pointer">
           <span className="text-white">
             زیــبا ترین مناطق تاریخی ایــران را بــشناســید
           </span>
